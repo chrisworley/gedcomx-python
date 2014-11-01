@@ -1,0 +1,158 @@
+{
+  "attribution" : {
+    "contributor" : {
+      "resource" : "#GGG-GGGG"
+    }
+  },
+  "persons" : [ {
+    "id" : "BBB-BBBB",
+    "sources" : [ {
+      "description" : "#EEE-EEEE"
+    } ],
+    "gender" : {
+      "type" : "http://gedcomx.org/Male"
+    },
+    "names" : [ {
+      "id" : "789",
+      "nameForms" : [ {
+        "fullText" : "George Washington",
+        "parts" : [ {
+          "type" : "http://gedcomx.org/Given",
+          "value" : "George"
+        }, {
+          "type" : "http://gedcomx.org/Surname",
+          "value" : "Washington"
+        } ]
+      } ]
+    } ],
+    "facts" : [ {
+      "id" : "123",
+      "type" : "http://gedcomx.org/Birth",
+      "date" : {
+        "original" : "February 22, 1732",
+        "formal" : "+1732-02-22"
+      },
+      "place" : {
+        "original" : "pope's creek, westmoreland, virginia, united states",
+        "description" : "#888"
+      }
+    }, {
+      "id" : "456",
+      "type" : "http://gedcomx.org/Death",
+      "date" : {
+        "original" : "December 14, 1799",
+        "formal" : "+1799-12-14T22:00:00"
+      },
+      "place" : {
+        "original" : "mount vernon, fairfax county, virginia, united states",
+        "description" : "#999"
+      }
+    } ]
+  }, {
+    "id" : "CCC-CCCC",
+    "sources" : [ {
+      "description" : "#FFF-FFFF"
+    } ],
+    "gender" : {
+      "type" : "http://gedcomx.org/Male"
+    },
+    "names" : [ {
+      "id" : "987",
+      "nameForms" : [ {
+        "fullText" : "Martha Dandridge Custis",
+        "parts" : [ {
+          "type" : "http://gedcomx.org/Given",
+          "value" : "Martha Dandridge"
+        }, {
+          "type" : "http://gedcomx.org/Surname",
+          "value" : "Custis"
+        } ]
+      } ]
+    } ],
+    "facts" : [ {
+      "id" : "321",
+      "type" : "http://gedcomx.org/Birth",
+      "date" : {
+        "original" : "June 2, 1731",
+        "formal" : "+1731-06-02"
+      },
+      "place" : {
+        "original" : "chestnut grove, new kent, virginia, united states",
+        "description" : "#KKK"
+      }
+    }, {
+      "id" : "654",
+      "type" : "http://gedcomx.org/Death",
+      "date" : {
+        "original" : "May 22, 1802",
+        "formal" : "+1802-05-22"
+      },
+      "place" : {
+        "original" : "mount vernon, fairfax county, virginia, united states",
+        "description" : "#999"
+      }
+    } ]
+  } ],
+  "relationships" : [ {
+    "id" : "DDD-DDDD",
+    "sources" : [ {
+      "description" : "#FFF-FFFF"
+    } ],
+    "person1" : {
+      "resource" : "#BBB-BBBB"
+    },
+    "person2" : {
+      "resource" : "#CCC-CCCC"
+    },
+    "facts" : [ {
+      "date" : {
+        "original" : "January 6, 1759",
+        "formal" : "+01-06-1759"
+      },
+      "place" : {
+        "original" : "White House Plantation"
+      }
+    } ]
+  } ],
+  "sourceDescriptions" : [ {
+    "id" : "EEE-EEEE",
+    "citations" : [ {
+      "value" : "\"George Washington.\" Wikipedia, The Free Encyclopedia. Wikimedia Foundation, Inc. 24 October 2012."
+    } ],
+    "about" : "http://en.wikipedia.org/wiki/George_washington"
+  }, {
+    "id" : "FFF-FFFF",
+    "citations" : [ {
+      "value" : "\"Martha Washington.\" Wikipedia, The Free Encyclopedia. Wikimedia Foundation, Inc. 24 October 2012."
+    } ],
+    "about" : "http://en.wikipedia.org/wiki/Martha_washington"
+  } ],
+  "agents" : [ {
+    "id" : "GGG-GGGG",
+    "names" : [ {
+      "value" : "Ryan Heaton"
+    } ]
+  } ],
+  "places" : [ {
+    "id" : "888",
+    "names" : [ {
+      "value" : "Pope's Creek, Westmoreland, Virginia, United States"
+    } ],
+    "latitude" : 38.192353,
+    "longitude" : -76.904069
+  }, {
+    "id" : "999",
+    "names" : [ {
+      "value" : "Mount Vernon, Fairfax County, Virginia, United States"
+    } ],
+    "latitude" : 38.721144,
+    "longitude" : -77.109461
+  }, {
+    "id" : "KKK",
+    "names" : [ {
+      "value" : "Chestnut Grove, New Kent, Virginia, United States"
+    } ],
+    "latitude" : 37.518304,
+    "longitude" : -76.984148
+  } ]
+}

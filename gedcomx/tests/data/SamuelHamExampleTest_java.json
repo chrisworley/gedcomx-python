@@ -1,0 +1,234 @@
+{
+  "attribution" : {
+    "contributor" : {
+      "resource" : "#A-1"
+    },
+    "modified" : 1398364200000
+  },
+  "persons" : [ {
+    "id" : "P-1",
+    "sources" : [ {
+      "description" : "#S-2"
+    } ],
+    "extracted" : true,
+    "gender" : {
+      "type" : "http://gedcomx.org/Male"
+    },
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "Samuel Ham"
+      } ]
+    } ],
+    "facts" : [ {
+      "type" : "http://gedcomx.org/Residence",
+      "date" : {
+        "original" : "3 November 1828",
+        "formal" : "+1828-11-03"
+      },
+      "place" : {
+        "original" : "parish of Honiton, Devon, England"
+      }
+    } ]
+  }, {
+    "id" : "P-2",
+    "sources" : [ {
+      "description" : "#S-2"
+    } ],
+    "extracted" : true,
+    "gender" : {
+      "type" : "http://gedcomx.org/Female"
+    },
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "Elizabeth Spiller"
+      } ]
+    } ],
+    "facts" : [ {
+      "type" : "http://gedcomx.org/Residence",
+      "date" : {
+        "original" : "3 November 1828",
+        "formal" : "+1828-11-03"
+      },
+      "place" : {
+        "original" : "parish of Wilton, Somerset, England"
+      }
+    } ]
+  }, {
+    "id" : "P-3",
+    "sources" : [ {
+      "description" : "#S-2"
+    } ],
+    "extracted" : true,
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "Jno. Pain"
+      } ]
+    } ]
+  }, {
+    "id" : "P-4",
+    "sources" : [ {
+      "description" : "#S-2"
+    } ],
+    "extracted" : true,
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "R.G. Halls"
+      } ]
+    } ]
+  }, {
+    "id" : "P-5",
+    "sources" : [ {
+      "description" : "#S-2"
+    } ],
+    "extracted" : true,
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "Peggy Hammet"
+      } ]
+    } ]
+  }, {
+    "id" : "P-6",
+    "sources" : [ {
+      "description" : "#S-2"
+    } ],
+    "extracted" : true,
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "David Smith Stone"
+      } ]
+    } ]
+  }, {
+    "id" : "C-1",
+    "analysis" : {
+      "resource" : "#D-2"
+    },
+    "evidence" : [ {
+      "resource" : "#P-1"
+    } ]
+  } ],
+  "relationships" : [ {
+    "extracted" : true,
+    "type" : "http://gedcomx.org/Couple",
+    "person1" : {
+      "resource" : "#P-1"
+    },
+    "person2" : {
+      "resource" : "#P-2"
+    },
+    "facts" : [ {
+      "type" : "http://gedcomx.org/Marriage",
+      "date" : {
+        "original" : "3 November 1828",
+        "formal" : "+1828-11-03"
+      },
+      "place" : {
+        "original" : "Wilton St George, Wilton, Somerset, England"
+      }
+    } ]
+  } ],
+  "sourceDescriptions" : [ {
+    "id" : "S-1",
+    "citations" : [ {
+      "value" : "Joseph Houghton Spencer, transcriber, Church of England, Parish Church of Wilton (Somerset). <cite>A copy of the registers of the baptisms, marriages, and burials at the church of St. George in the parish of Wilton : adjoining Taunton, in the county of Somerset from A.D. 1558 to A.D. 1837</cite>; Marriage entry for Samuel Ham and Elizabeth Spiller (3 November 1828), (Taunton: Barnicott, 1890), p. 224, No. 86."
+    } ],
+    "titles" : [ {
+      "value" : "Marriage entry for Samuel Ham and Elizabeth Spiller, Parish Register, Wilton, Somerset, England"
+    } ],
+    "resourceType" : "http://gedcomx.org/PhysicalArtifact",
+    "descriptions" : [ {
+      "value" : "Marriage entry for Samuel Ham and Elizabeth in a copy of the registers of the baptisms, marriages, and burials at the church of St. George in the parish of Wilton : adjoining Taunton, in the county of Somerset from A.D. 1558 to A.D. 1837."
+    } ],
+    "repository" : {
+      "resource" : "#A-2"
+    }
+  }, {
+    "id" : "S-2",
+    "citations" : [ {
+      "value" : "Joseph Houghton Spencer, transcriber, Church of England, Parish Church of Wilton (Somerset). <cite>A copy of the registers of the baptisms, marriages, and burials at the church of St. George in the parish of Wilton : adjoining Taunton, in the county of Somerset from A.D. 1558 to A.D. 1837</cite>; Marriage entry for Samuel Ham and Elizabeth Spiller (3 November 1828), (Taunton: Barnicott, 1890), p. 224, No. 86."
+    } ],
+    "about" : "#D-1",
+    "sources" : [ {
+      "description" : "#S-1"
+    } ],
+    "titles" : [ {
+      "value" : "Transcription of marriage entry for Samuel Ham and Elizabeth Spiller, Parish Register, Wilton, Somerset, England"
+    } ],
+    "resourceType" : "http://gedcomx.org/DigitalArtifact",
+    "descriptions" : [ {
+      "value" : "Transcription of marriage entry for Samuel Ham and Elizabeth in a copy of the registers of the baptisms, marriages, and burials at the church of St. George in the parish of Wilton : adjoining Taunton, in the county of Somerset from A.D. 1558 to A.D. 1837."
+    } ]
+  } ],
+  "agents" : [ {
+    "id" : "A-1",
+    "names" : [ {
+      "value" : "Jane Doe"
+    } ],
+    "emails" : [ {
+      "resource" : "mailto:example@example.org"
+    } ]
+  }, {
+    "id" : "A-2",
+    "names" : [ {
+      "value" : "Family History Library"
+    } ],
+    "addresses" : [ {
+      "city" : "Salt Lake City",
+      "stateOrProvince" : "Utah"
+    } ]
+  } ],
+  "events" : [ {
+    "id" : "E-1",
+    "extracted" : true,
+    "type" : "http://gedcomx.org/Marriage",
+    "date" : {
+      "original" : "3 November 1828",
+      "formal" : "+1828-11-03"
+    },
+    "place" : {
+      "original" : "Wilton St George, Wilton, Somerset, England"
+    },
+    "roles" : [ {
+      "person" : {
+        "resource" : "#P-1"
+      },
+      "type" : "http://gedcomx.org/Principal"
+    }, {
+      "person" : {
+        "resource" : "#P-2"
+      },
+      "type" : "http://gedcomx.org/Principal"
+    }, {
+      "person" : {
+        "resource" : "#P-3"
+      },
+      "type" : "http://gedcomx.org/Witness"
+    }, {
+      "person" : {
+        "resource" : "#P-4"
+      },
+      "type" : "http://gedcomx.org/Witness"
+    }, {
+      "person" : {
+        "resource" : "#P-5"
+      },
+      "type" : "http://gedcomx.org/Witness"
+    }, {
+      "person" : {
+        "resource" : "#P-6"
+      },
+      "type" : "http://gedcomx.org/Official"
+    } ]
+  } ],
+  "documents" : [ {
+    "id" : "D-1",
+    "lang" : "en",
+    "sources" : [ {
+      "description" : "#S-1"
+    } ],
+    "type" : "http://gedcomx.org/Transcription",
+    "text" : "Samuel Ham of the parish of Honiton and Elizabeth Spiller\nwere married this 3rd day of November 1828 by David Smith\nStone, Pl Curate,\nIn the Presence of\nJno Pain.\nR.G. Halls.  Peggy Hammet.\nNo. 86."
+  }, {
+    "id" : "D-2",
+    "text" : "...Jane Doe's analysis document..."
+  } ]
+}

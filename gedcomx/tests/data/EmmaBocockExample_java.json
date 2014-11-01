@@ -1,0 +1,115 @@
+{
+  "attribution" : {
+    "contributor" : {
+      "resource" : "#A-1"
+    },
+    "modified" : 1394130600000
+  },
+  "persons" : [ {
+    "id" : "P-1",
+    "sources" : [ {
+      "description" : "#S-1"
+    } ],
+    "extracted" : true,
+    "gender" : {
+      "type" : "http://gedcomx.org/Female"
+    },
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "Emma Bocock"
+      } ]
+    } ],
+    "facts" : [ {
+      "type" : "http://gedcomx.org/Birth",
+      "date" : {
+        "original" : "23 June 1843"
+      },
+      "place" : {
+        "original" : "Broadfield Bar, Abbeydale Road, Ecclesall-Bierlow, York, England, United Kingdom"
+      }
+    } ]
+  }, {
+    "id" : "P-2",
+    "sources" : [ {
+      "description" : "#S-1"
+    } ],
+    "extracted" : true,
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "William Bocock"
+      } ]
+    } ],
+    "facts" : [ {
+      "type" : "http://gedcomx.org/Occupation",
+      "value" : "Toll Collector"
+    } ]
+  }, {
+    "id" : "P-3",
+    "sources" : [ {
+      "description" : "#S-1"
+    } ],
+    "extracted" : true,
+    "names" : [ {
+      "nameForms" : [ {
+        "fullText" : "Sarah Bocock formerly Brough"
+      } ]
+    } ]
+  }, {
+    "id" : "C-1",
+    "analysis" : {
+      "resource" : "#D-1"
+    },
+    "evidence" : [ {
+      "resource" : "#P-1"
+    } ]
+  } ],
+  "relationships" : [ {
+    "type" : "http://gedcomx.org/ParentChild",
+    "person1" : {
+      "resource" : "#P-2"
+    },
+    "person2" : {
+      "resource" : "#P-1"
+    }
+  }, {
+    "type" : "http://gedcomx.org/ParentChild",
+    "person1" : {
+      "resource" : "#P-3"
+    },
+    "person2" : {
+      "resource" : "#P-1"
+    }
+  } ],
+  "sourceDescriptions" : [ {
+    "id" : "S-1",
+    "citations" : [ {
+      "value" : "England, birth certificate for Emma Bocock, born 23 July 1843; citing 1843 Birth in District and Sub-district of Ecclesall-Bierlow in the County of York, 303; General Registry Office, Southport."
+    } ],
+    "titles" : [ {
+      "value" : "Birth Certificate of Emma Bocock, 23 July 1843, General Registry Office"
+    } ],
+    "resourceType" : "http://gedcomx.org/PhysicalArtifact",
+    "created" : -3989885400000,
+    "repository" : {
+      "resource" : "#A-2"
+    }
+  } ],
+  "agents" : [ {
+    "id" : "A-1",
+    "names" : [ {
+      "value" : "Jane Doe"
+    } ],
+    "emails" : [ {
+      "resource" : "mailto:example@example.org"
+    } ]
+  }, {
+    "id" : "A-2",
+    "names" : [ {
+      "value" : "General Registry Office, Southport"
+    } ]
+  } ],
+  "documents" : [ {
+    "id" : "D-1",
+    "text" : "...Jane Doe's analysis document..."
+  } ]
+}
