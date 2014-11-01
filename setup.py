@@ -3,7 +3,7 @@ from os.path import join, dirname
 import gedcomx
 
 setup(
-    name='GedCOMX',
+    name='gedcomx-python',
     version=gedcomx.__version__,
 	url='http://github.com/chrisworley/gedcomx-python',
 	author='Christopher Worley',
