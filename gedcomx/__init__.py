@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Sandeep S'
-__version__ = '0.1'
-__date__ = '01-July-2014'
-
 
 def gedcomx_enum(**enums):
     """

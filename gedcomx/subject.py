@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Sandeep S <codereverser@gmail.com>'
-__version__ = '0.1'
-__date__ = '02-July-2014'
-
 from .evidencereference import EvidenceReference
 from .property import ListProperty, DictProperty
 from .identifier import Identifier

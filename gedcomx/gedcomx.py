@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Sandeep S <codereverser@gmail.com>'
-__date__ = '27-July-2014'
-
 from .agent import Agent
 from .attribution import Attribution
 from .property import ListProperty

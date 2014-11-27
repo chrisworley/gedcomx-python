@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Sandeep S <codereverser@gmail.com>'
-__date__ = '24-July-2014'
-
 import unittest
 import collections
 

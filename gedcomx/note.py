@@ -1,4 +1,3 @@
-__author__ = 'sandeep'
 
 from .hypermediaenableddata import HyperMediaEnabledData
 from .attribution import Attribution

@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Sandeep S <codereverser@gmail.com>'
-__date__ = '04-July-2014'
-
-
 from ...gedcomx import Gedcomx
 from .gedcomxapplicationstate import GedcomxApplicationState
 import json

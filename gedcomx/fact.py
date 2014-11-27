@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Sandeep S <codereverser@gmail.com>'
-__version__ = '0.1'
-__date__ = '02-July-2014'
-
 from .property import ListProperty
 from .qualifier import Qualifier
 from .field import Field

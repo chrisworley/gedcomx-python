@@ -1,4 +1,4 @@
-__author__ = 'sandeep'
+# -*- coding: utf-8 -*-
 
 from .hypermediaenableddata import HyperMediaEnabledData
 from .attribution import Attribution

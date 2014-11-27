@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-__author__='Sandeep S <codereverser@gmail.com>'
-__version__='0.1'
-__date__='03-July-2014'
-
 from ... import gedcomx_enum
 
 Rel = gedcomx_enum(
